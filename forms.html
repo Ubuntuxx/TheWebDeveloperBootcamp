@@ -11,26 +11,6 @@
 <body>
     <h1>Forms demo</h1>
     <form action="/tacos">
-        <input type="text" placeholder="asdfasdf">
-        <input type="password" placeholder="Password">
-        <input type="color">
-        <input type="file">
-        <input type="number">
-
-
-        <div class="preference">
-            <label for="cheese">Do you like cheese?</label>
-            <input type="checkbox" name="cheese" id="cheese">
-        </div>
-
-
-        <br>
-
-        <div class="queso">
-            <label for="queso">te gusta el queso?</label>
-            <input type="checkbox" id="queso">
-        </div>
-
         <div>
             <label for="tac">
                 <input id="tac" type="checkbox" name="terms-and-conditions" />
@@ -45,18 +25,20 @@
         <div class="username">
             <p>
                 <label for="username">Enter a username</label>
-                <input type="text" id="username">
+                <input type="text" id="username" name="username">
             </p>
 
             <p>
                 <label for="pass">Enter a pass</label>
-                <input type="password" id="pass">
+                <input type="password" id="pass" name="pass">
             </p>
             <p>
                 <label for="color">Enter a color: </label>
-                <input type="color" id="color">
+                <input type="color" id="color" name="color">
             </p>
         </div>
+
+        <button>Enviar</button>
     </form>
 </body>
 
