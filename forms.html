@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
 </head>
+
 <body>
     <h1>Forms demo</h1>
     <form action="/tacos">
@@ -14,6 +16,48 @@
         <input type="color">
         <input type="file">
         <input type="number">
+
+
+        <div class="preference">
+            <label for="cheese">Do you like cheese?</label>
+            <input type="checkbox" name="cheese" id="cheese">
+        </div>
+
+
+        <br>
+
+        <div class="queso">
+            <label for="queso">te gusta el queso?</label>
+            <input type="checkbox" id="queso">
+        </div>
+
+        <div>
+            <label for="tac">
+                <input id="tac" type="checkbox" name="terms-and-conditions" />
+                I agree to the Terms and Conditions
+            </label>
+            <p>
+                <a href="./chickems.html">Read our Terms and Conditions</a>
+            </p>
+        </div>
+
+
+        <div class="username">
+            <p>
+                <label for="username">Enter a username</label>
+                <input type="text" id="username">
+            </p>
+
+            <p>
+                <label for="pass">Enter a pass</label>
+                <input type="password" id="pass">
+            </p>
+            <p>
+                <label for="color">Enter a color: </label>
+                <input type="color" id="color">
+            </p>
+        </div>
     </form>
 </body>
+
 </html>
