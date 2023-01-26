@@ -1,14 +1,42 @@
-
-/**h2 {
-    color: #5fcffc;
-    background-color: rgb(66, 187, 24);
+h2 {
+    color: #492A3A;
+    /* background-color: rgb(66, 187, 24); */
 }
+
 button {
     color: magenta;
-    background-color: cyan;
+    background-color: #492A3A;
 }
 
 p {
     color: olive;
 }
-*/
+
+input[type="password"] {
+    color: yellow;
+}
+
+section[class="post"] {
+    background-color: yellowgreen;
+}
+
+a[href="$"] {
+    color: aqua;
+}
+
+button:hover {
+    background-color: red;
+    color: antiquewhite;
+}
+
+button:active {
+    background-color: green;
+}
+
+/* .post:nth-of-type(3n) {
+    background-color: red;
+} */
+
+P::first-line{
+    color: #3D2B3D;
+}
