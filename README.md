@@ -1,8 +1,84 @@
-<h1 align="center">Hi 👋, I'm Ubuntuxx</h1>
-<h3 align="center">A passionate frontend developer from MX</h3>
+Title
+===
+Abstract:xxx
+## Papar Information
+- Title:  `paper name`
+- Authors:  `A`,`B`,`C`
+- Preprint: [https://arxiv.org/abs/xx]()
+- Full-preprint: [paper position]()
+- Video: [video position]()
 
-- 🔭 I’m currently working on **The Web Developer Bootcamp**
+## Install & Dependence
+- python
+- pytorch
+- numpy
+
+## Dataset Preparation
+| Dataset | Download |
+| ---     | ---   |
+| dataset-A | [download]() |
+| dataset-B | [download]() |
+| dataset-C | [download]() |
+
+## Use
+- for train
+  ```
+  python train.py
+  ```
+- for test
+  ```
+  python test.py
+  ```
+## Pretrained model
+| Model | Download |
+| ---     | ---   |
+| Model-1 | [download]() |
+| Model-2 | [download]() |
+| Model-3 | [download]() |
 
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://golang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://mariadb.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="mariadb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> </p>
+## Directory Hierarchy
+```
+|—— .gitignore
+|—— about.html
+|—— chickems.html
+|—— css
+|    |—— app.css
+|    |—— cssproperties.css
+|    |—— tabla.css
+|—— estilos.html
+|—— forms.html
+|—— haviest_birds.html
+|—— index.html
+|—— marathonForm.html
+|—— properties.html
+|—— tables.html
+```
+## Code Details
+### Tested Platform
+- software
+  ```
+  OS: Debian unstable (May 2021), Ubuntu LTS
+  Python: 3.8.5 (anaconda)
+  PyTorch: 1.7.1, 1.8.1
+  ```
+- hardware
+  ```
+  CPU: Intel Xeon 6226R
+  GPU: Nvidia RTX3090 (24GB)
+  ```
+### Hyper parameters
+```
+```
+## References
+- [paper-1]()
+- [paper-2]()
+- [code-1](https://github.com)
+- [code-2](https://github.com)
+  
+## License
+
+## Citing
+If you use xxx,please use the following BibTeX entry.
+```
+```
