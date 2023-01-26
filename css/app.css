@@ -37,6 +37,15 @@ button:active {
     background-color: red;
 } */
 
+/* Pseudo Elemens 
+::after
+::before
+::first-letter
+*/
 P::first-line{
     color: #3D2B3D;
+}
+
+p::selection{
+    background-color: black;
 }
