@@ -7,3 +7,29 @@ div {
 h1 {
     background-color: pink;
 }
+
+#one {
+    background-color: #e5989b;
+    border-width: 5px;
+    border-style: solid;
+    box-sizing: border-box;
+}
+
+#two {
+    background-color: #f4389a;
+    border-color: #ffcdb2;
+    border-width: 5px;
+    border-style: solid;
+    border-left-color: aqua;
+}
+
+#three {
+    background-color: #b2939b;
+    border: 4px solid red;
+    box-sizing: border-box;
+    border-radius: 0.2em;
+}
+
+#four {
+    border-radius: 10% 30% 50% 70%;
+}
