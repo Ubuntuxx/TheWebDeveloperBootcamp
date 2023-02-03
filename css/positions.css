@@ -1,0 +1,10 @@
+#fixed {
+    position: fixed;
+    top: 0.1;
+    left: 0.1;
+    background-color: #81b29a;
+} 
+ 
+#middle {
+    background-color: #81b29a;
+}
